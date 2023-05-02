@@ -1,0 +1,22 @@
+{
+  "name": "cyp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/e2e/assertion.cy.js --browser=chrome --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.6.1"
+  }
+}
