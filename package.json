@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --spec cypress/e2e/assertion.cy.js --browser=chrome --headless"
+    "cyp": "cypress run --spec cypress/e2e/assertion.cy.js --browser=chrome --headless"
   },
   "keywords": [],
   "author": "",
